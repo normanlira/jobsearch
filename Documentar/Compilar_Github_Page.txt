@@ -3,5 +3,7 @@
 3.- En repositorio del projecto ir a la secciond de CONFIGURACION, al apartado de GITHUB PAGES y seleciona DOCS
     , salvar y verificar en la pagina que indican
 
+
+
 https://angular.io/guide/deployment
 
