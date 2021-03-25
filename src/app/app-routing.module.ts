@@ -10,6 +10,9 @@ import { ContactComponent } from './pages/contact/contact/contact.component';
 import { Error404Component } from './pages/error/error404/error404.component';
 import { JoblistingComponent } from './pages/job/job_listing/joblisting.component';
 import { JobDetailsComponent } from './pages/job/job-details/job-details.component';
+import { PrivacyComponent } from './pages/politics/privacy/privacy.component';
+import { TermsConditionsComponent } from './pages/politics/terms-conditions/terms-conditions.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -23,6 +26,9 @@ const routes: Routes = [
   { path: 'Contact', component: ContactComponent },
   { path: 'Joblisting', component: JoblistingComponent },
   { path: 'JobDetails', component: JobDetailsComponent },
+  { path: 'Privacy', component: PrivacyComponent },
+  { path: 'TermsConditions', component: TermsConditionsComponent },
+  { path: 'Register', component: RegisterComponent },
   // { path: 'post-job', component: PostJobComponent },
 
   // { path: '',   redirectTo: 'first-component', pathMatch: 'full' }, // redirect to `first-component`

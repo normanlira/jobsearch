@@ -22,6 +22,9 @@ import { JoblistingComponent } from './pages/job/job_listing/joblisting.componen
 import { JobDetailsComponent } from './pages/job/job-details/job-details.component';
 import { HomeComponent } from './pages/home/home/home.component';
 import { Error404Component } from './pages/error/error404/error404.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { PrivacyComponent } from './pages/politics/privacy/privacy.component';
+
 
 @NgModule({
   declarations: [
@@ -45,6 +48,8 @@ import { Error404Component } from './pages/error/error404/error404.component';
     JobDetailsComponent,
     HomeComponent,
     Error404Component,
+    RegisterComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,
